@@ -30,6 +30,7 @@ func main() {
 	router := mux.NewRouter()
 
 	router.HandleFunc("/api/v1/authentication", account.AuthenticationAccount).Methods("POST")
+	router.HandleFunc("/api/v1/signup", account.SignupAccount).Methods("POST")
 	router.HandleFunc("/api/v1/account/{id}", account.SearchAccountByID).Methods("GET")
 	router.HandleFunc("/api/v1/account", account.CreateAccount).Methods("POST")
 	router.PathPrefix("/swagger/").Handler(httpSwagger.Handler(httpSwagger.URL("http://localhost:8080/swagger/doc.json")))

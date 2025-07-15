@@ -45,3 +45,19 @@
 2025/07/15 12:04:02 Server climbing on the door 8080!
 2025/07/15 12:04:59 Request received on /api/v1/authentication
 2025/07/15 12:04:59 User authenticated successfully: thalita.guedes08@gmail.com
+2025/07/15 12:49:19 Database connection established successfully!
+2025/07/15 12:49:19 Server climbing on the door 8080!
+2025/07/15 13:17:15 Database connection established successfully!
+2025/07/15 13:17:15 Server climbing on the door 8080!
+2025/07/15 13:19:10 Request received on /api/v1/authentication
+2025/07/15 13:19:10 User authenticated successfully: thalita.guedes08@gmail.com
+2025/07/15 15:15:59 Database connection established successfully!
+2025/07/15 15:15:59 Server climbing on the door 8080!
+2025/07/15 15:21:06 Database connection established successfully!
+2025/07/15 15:21:06 Server climbing on the door 8080!
+2025/07/15 15:22:24 Database connection established successfully!
+2025/07/15 15:22:24 Server climbing on the door 8080!
+2025/07/15 15:23:46 Request received on /api/v1/signup
+2025/07/15 15:23:46 New user registered: maria.bezerra@gmail.com
+2025/07/15 15:26:20 Request received on /api/v1/authentication
+2025/07/15 15:26:20 User authenticated successfully: maria.bezerra@gmail.com

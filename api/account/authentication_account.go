@@ -39,7 +39,7 @@ func AuthenticationAccount(w http.ResponseWriter, r *http.Request) {
 
 }
 
-// Helper function to authenticate and generate the token
+//AuthenticationUser helper function that authenticates a user and returns a JWT token.
 func AuthenticationUser(w http.ResponseWriter, r *http.Request, email, senha string) {
 
 	query := `SELECT email FROM user_authentication WHERE email=$1 AND senha=$2`

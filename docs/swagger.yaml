@@ -130,4 +130,40 @@ paths:
       summary: Authentication Account
       tags:
       - account
+  /signup:
+    post:
+      consumes:
+      - application/json
+      description: Creating a new user record in the database
+      parameters:
+      - description: Login details
+        in: body
+        name: account
+        required: true
+        schema:
+          $ref: '#/definitions/account.Login'
+      produces:
+      - application/json
+      responses:
+        "201":
+          description: Created
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Create New User
+      tags:
+      - account
 swagger: "2.0"
