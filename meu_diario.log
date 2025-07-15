@@ -1,0 +1,47 @@
+2025/06/11 11:05:08 Servidor iniciado!
+2025/06/11 11:14:37 Servidor iniciado!
+2025/06/11 13:45:07 Servidor iniciado!
+2025/06/11 13:56:35 Servidor iniciado!
+2025/06/13 11:06:08 Servidor subindo na porta 8080!
+2025/06/20 17:12:53 Servidor subindo na porta 8080!
+2025/06/21 16:12:53 Servidor subindo na porta 8080!
+2025/06/21 16:17:51 Requisição recebida em /api/v1/account/{id}
+2025/06/27 12:39:05 Server climbing on the door 8080!
+2025/06/27 12:59:23 Database connection established successfully!
+2025/06/27 12:59:23 Server climbing on the door 8080!
+2025/06/27 16:07:05 Database connection established successfully!
+2025/06/27 16:07:05 Server climbing on the door 8080!
+2025/06/27 16:17:15 Database connection established successfully!
+2025/06/27 16:17:15 Server climbing on the door 8080!
+2025/06/27 16:19:09 Request received on /api/v1/account/{id}
+2025/06/27 16:19:09 ID received: 001
+2025/06/27 16:19:09 error fetching database: ERROR: relation "accounts" does not exist (SQLSTATE 42P01)
+2025/06/27 16:24:38 Database connection established successfully!
+2025/06/27 16:24:38 Server climbing on the door 8080!
+2025/06/27 16:25:34 Request received on /api/v1/account/{id}
+2025/06/27 16:25:34 ID received: 001
+2025/06/27 16:26:01 Request received on /api/v1/account/{id}
+2025/06/27 16:26:01 ID received: 002
+2025/06/27 17:06:50 Database connection established successfully!
+2025/06/27 17:06:50 Server climbing on the door 8080!
+2025/06/27 17:11:19 Request received on /api/v1/account
+2025/06/27 17:11:19 Account created successfully: {74c53ad0-3d5b-4fb1-8a72-ea77f199ad4a active Elizabete Santos 60 (11)983532568 feminine Sidnei soares de andrade}
+2025/07/08 23:43:07 Error connecting to the database:failed to connect to `user=postgres database=account`: hostname resolving error: lookup db on 10.255.255.254:53: read udp 10.255.255.254:59143->10.255.255.254:53: i/o timeout
+2025/07/15 09:31:37 Error connecting to the database:failed to connect to `user=postgres database=account`: hostname resolving error: lookup db on 10.255.255.254:53: read udp 10.255.255.254:50972->10.255.255.254:53: i/o timeout
+2025/07/15 09:37:47 Database connection established successfully!
+2025/07/15 09:37:47 Server climbing on the door 8080!
+2025/07/15 09:45:39 Database connection established successfully!
+2025/07/15 09:45:39 Server climbing on the door 8080!
+2025/07/15 09:50:08 Database connection established successfully!
+2025/07/15 09:50:08 Server climbing on the door 8080!
+2025/07/15 09:53:50 Database connection established successfully!
+2025/07/15 09:53:50 Server climbing on the door 8080!
+2025/07/15 11:52:59 Database connection established successfully!
+2025/07/15 11:52:59 Server climbing on the door 8080!
+2025/07/15 11:53:58 Request received on /api/v1/authentication
+2025/07/15 11:53:58 Authentication failed for email: thalita.guedes08@gmail.com
+2025/07/15 11:53:58 Database connection error ERROR: relation "authentication_account" does not exist (SQLSTATE 42P01)
+2025/07/15 12:04:02 Database connection established successfully!
+2025/07/15 12:04:02 Server climbing on the door 8080!
+2025/07/15 12:04:59 Request received on /api/v1/authentication
+2025/07/15 12:04:59 User authenticated successfully: thalita.guedes08@gmail.com
